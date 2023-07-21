@@ -1,0 +1,423 @@
+/*
+ Media queries
+
+ usage:
+ @import "styles/_mixins";
+
+ .myClass {
+   margin-top: 20px;
+ }
+
+ @import min-sm {
+   .myClass {
+     margin-top: 40px;
+   }
+ }
+*/
+/*
+ Absolute positioning full height/width
+*/
+/*
+ with: min-content except for asian languages
+*/
+/*
+ Hide elements visually, but keep them available for screen-readers.
+
+ Used for information required for screen-reader users to understand and use
+ the site where visual display is undesirable. Information provided in this
+ manner should be kept concise, to avoid unnecessary burden on the user.
+ "!important" is used to prevent unintentional overrides.
+ */
+/*
+ The .focusable class extends the .visually-hidden class to allow
+ the element to be focusable when navigated to via the keyboard.
+*/
+/*
+ Hide visually and from screen-readers, but maintain layout.
+*/
+/*
+ Add contrast background to text over image
+*/
+/*
+ Add border to box with white background
+*/
+/*
+ animations
+*/
+:root {
+  --dark-grey: #252525;
+  --medium-grey: #666666;
+  --light-grey: #d2d2d2;
+  --ultra-light-grey: #f4f4f4;
+  --dark-blue: #003150;
+  --background-dark-blue: #001f33;
+  --bright-blue: #3d9ce3;
+  --brown: #817656;
+  --white: #ffffff;
+  --black: #000000;
+  --error: #bd0000;
+  --success: #33ab1f;
+  --header-height: 70px;
+  --anim-ease-out: cubic-bezier(0.32, 0.71, 0.42, 0.94);
+}
+
+html {
+  font-size: 62.5%;
+  color: var(--dark-grey);
+}
+html.a11y-contrast {
+  --dark-grey: black;
+  --medium-grey: black;
+  --light-grey: #242424;
+  --bright-blue: #145a90;
+  --ultra-light-grey: white;
+}
+html *,
+html *::before,
+html *::after {
+  box-sizing: border-box;
+}
+html[lang=jp] *, html[lang=kr] * {
+  word-break: keep-all;
+}
+html input:focus-visible,
+html a:focus-visible,
+html button:focus-visible {
+  outline: var(--bright-blue) auto 1px;
+  outline-offset: 5px;
+}
+
+body {
+  overflow-x: hidden;
+  --page-default-background: var(--ultra-light-grey);
+  --page-background: var(--page-default-background);
+  --page-border: var(--light-grey);
+  /*> *:not(div) {
+    display: none !important;
+  }*/
+}
+body.no-scroll {
+  overflow: hidden;
+}
+body.no-scroll .no-scroll-hidden {
+  display: none !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.a11y-visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  word-wrap: normal;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.a11y-contrast .a11y-background {
+  background: var(--white);
+  color: var(--black);
+  padding: 4px !important;
+  text-shadow: none;
+}
+.a11y-contrast .a11y-background * {
+  color: var(--black) !important;
+  fill: var(--black) !important;
+}
+.a11y-contrast .a11y-background:hover, .a11y-contrast .a11y-background:focus {
+  color: var(--black);
+  background: var(--white);
+}
+.a11y-contrast .a11y-border {
+  border: 1px solid var(--light-grey) !important;
+}
+.a11y-low-animations .a11y-animated {
+  transition: none !important;
+  transform: none !important;
+}
+
+.width-min-content {
+  width: min-content;
+}
+html[lang=jp] .width-min-content, html[lang=th] .width-min-content, html[lang=kr] .width-min-content, html[lang=hk] .width-min-content, html[lang^=zh] .width-min-content {
+  width: auto;
+}
+
+.layout-vintage-watches {
+  --page-background: #f7f1e9 url("../public/images/bg-vintage-watches.jpg")
+    repeat-x top center;
+  --page-border: #e1d8cd;
+  background: var(--page-background);
+}
+
+.layout-holiday-shopping-event {
+  --dark-blue: #252525;
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --header-height: 90px;
+  }
+}
+button:not(.MuiButton-root) {
+  font-family: inherit;
+  letter-spacing: inherit;
+  font-size: inherit;
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+button:not(.MuiButton-root):disabled, button:not(.MuiButton-root)[aria-disabled=true] {
+  cursor: default;
+}
+
+button.MuiTypography-root {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+div.MuiTypography-root > p,
+div.MuiTypography-root > ul {
+  margin: 0 0 1em 0;
+}
+div.MuiTypography-root > p:last-child,
+div.MuiTypography-root > ul:last-child {
+  margin-bottom: 0;
+}
+
+div.MuiTypography-root > ul {
+  padding: 0;
+}
+div.MuiTypography-root > ul > li {
+  list-style-type: none;
+}
+div.MuiTypography-root > ul > li:before {
+  content: "- ";
+}
+
+.MuiAccordion-root.MuiPaper-root {
+  background: transparent;
+}
+.MuiAccordion-root.MuiPaper-root .MuiAccordionDetails-root {
+  padding: 10px 0 12px;
+}
+
+.MuiLinearProgress-root {
+  background: transparent;
+  height: 2px;
+}
+
+.MuiDivider-root {
+  border-color: var(--light-grey);
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+
+.swiper-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.swiper-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0px, 0, 0);
+}
+
+.swiper-pointer-events {
+  touch-action: pan-y;
+}
+.swiper-pointer-events.swiper-vertical {
+  touch-action: pan-x;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+
+/* Auto Height */
+.swiper-autoheight,
+.swiper-autoheight .swiper-slide {
+  height: auto;
+}
+.swiper-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+
+.swiper-backface-hidden .swiper-slide {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.swiper-centered > .swiper-wrapper::before {
+  content: "";
+  flex-shrink: 0;
+  order: 9999;
+}
+.swiper-centered.swiper-horizontal > .swiper-wrapper > .swiper-slide:first-child {
+  margin-inline-start: var(--swiper-centered-offset-before);
+}
+.swiper-centered.swiper-horizontal > .swiper-wrapper::before {
+  height: 100%;
+  width: var(--swiper-centered-offset-after);
+}
+.swiper-centered.swiper-vertical > .swiper-wrapper > .swiper-slide:first-child {
+  margin-block-start: var(--swiper-centered-offset-before);
+}
+.swiper-centered.swiper-vertical > .swiper-wrapper::before {
+  width: 100%;
+  height: var(--swiper-centered-offset-after);
+}
+.swiper-centered > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: center center;
+}
+
+/* a11y */
+.swiper .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+
+/* free mode */
+.swiper-free-mode > .swiper-wrapper {
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+
+/* effect fade */
+.swiper-fade.swiper-free-mode .swiper-slide {
+  transition-timing-function: ease-out;
+}
+.swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+.swiper-fade .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-fade .swiper-slide-active, .swiper-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: var(--dark-blue);
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px var(--dark-blue), 0 0 3px var(--dark-blue);
+  opacity: 1;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: solid 3px transparent;
+  border-top-color: var(--dark-blue);
+  border-left-color: var(--dark-blue);
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

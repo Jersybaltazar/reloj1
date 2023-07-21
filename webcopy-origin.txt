@@ -1,0 +1,160 @@
+Uri: https://www.longines.com/external/assets/index.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\external\assets\index.js
+Content Type: application/javascript
+
+Uri: https://www.longines.com/_next/static/external/index.css
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_next\static\external\index.css
+Content Type: text/css
+
+Uri: https://zulu.longines.com/
+File Name: C:\Downloaded Web Sites\zulu.longines.com\index.htm
+Content Type: text/html
+
+Uri: https://zulu.longines.com/favicon.ico
+File Name: C:\Downloaded Web Sites\zulu.longines.com\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://zulu.longines.com/images/globe.gif
+File Name: C:\Downloaded Web Sites\zulu.longines.com\images\globe.gif
+Content Type: image/gif
+
+Uri: https://zulu.longines.com/images/menu-bg.png
+File Name: C:\Downloaded Web Sites\zulu.longines.com\images\menu-bg.png
+Content Type: image/png
+
+Uri: https://zulu.longines.com/images/noise.png
+File Name: C:\Downloaded Web Sites\zulu.longines.com\images\noise.png
+Content Type: image/png
+
+Uri: https://zulu.longines.com/images/plane-1.gif
+File Name: C:\Downloaded Web Sites\zulu.longines.com\images\plane-1.gif
+Content Type: image/gif
+
+Uri: https://zulu.longines.com/images/plane-2.gif
+File Name: C:\Downloaded Web Sites\zulu.longines.com\images\plane-2.gif
+Content Type: image/gif
+
+Uri: https://zulu.longines.com/images/plane-3.gif
+File Name: C:\Downloaded Web Sites\zulu.longines.com\images\plane-3.gif
+Content Type: image/gif
+
+Uri: https://zulu.longines.com/_nuxt/0228767.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\0228767.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/15aed78.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\15aed78.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/2814a6d.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\2814a6d.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/3980eb8.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\3980eb8.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/3d0c48a.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\3d0c48a.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/494d762.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\494d762.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/758a6d7.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\758a6d7.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/9d9fbb8.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\9d9fbb8.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/c692f7f.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\c692f7f.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/fonts/EditorialNew-Ultralight.162144a.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\EditorialNew-Ultralight.162144a.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/EditorialNew-Ultralight.fa160eb.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\EditorialNew-Ultralight.fa160eb.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansHeadline-Bold.7f22a09.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansHeadline-Bold.7f22a09.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansHeadline-Bold.b82376a.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansHeadline-Bold.b82376a.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansHeadline-Regular.8eb3026.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansHeadline-Regular.8eb3026.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansHeadline-Regular.f06da5d.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansHeadline-Regular.f06da5d.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansText-Light.592a7c7.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansText-Light.592a7c7.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansText-Light.fc0b85d.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansText-Light.fc0b85d.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansText-Regular.1d357cb.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansText-Regular.1d357cb.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSansText-Regular.fb4637a.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSansText-Regular.fb4637a.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSerifHeadline-Regular.83d4d66.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSerifHeadline-Regular.83d4d66.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/LonginesSerifHeadline-Regular.a291984.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\LonginesSerifHeadline-Regular.a291984.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/OpenSans-Light.a6f9c29.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\OpenSans-Light.a6f9c29.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/OpenSans-Light.c320c26.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\OpenSans-Light.c320c26.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/OpenSans-Regular.3ef06ba.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\OpenSans-Regular.3ef06ba.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/OpenSans-Regular.6c5acfa.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\OpenSans-Regular.6c5acfa.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/fonts/OpenSans-SemiBold.a7e5d5e.woff2
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\OpenSans-SemiBold.a7e5d5e.woff2
+Content Type: font/woff2
+
+Uri: https://zulu.longines.com/_nuxt/fonts/OpenSans-SemiBold.ad9bc43.woff
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\fonts\OpenSans-SemiBold.ad9bc43.woff
+Content Type: font/woff
+
+Uri: https://zulu.longines.com/_nuxt/static/1689116749/manifest.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\static\1689116749\manifest.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/static/1689116749/payload.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\static\1689116749\payload.js
+Content Type: application/javascript
+
+Uri: https://zulu.longines.com/_nuxt/static/1689116749/state.js
+File Name: C:\Downloaded Web Sites\zulu.longines.com\_nuxt\static\1689116749\state.js
+Content Type: application/javascript
+
